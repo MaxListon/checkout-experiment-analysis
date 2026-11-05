@@ -1,0 +1,19 @@
+{
+  "raw_assignment_rows": 24024,
+  "assigned_users": 24000,
+  "duplicate_extra_rows": 24,
+  "conflicting_users": 0,
+  "complete_followup": true,
+  "nonbuyers_retained": 20842,
+  "excluded_orders": 179,
+  "excluded_order_reasons": {
+    "not_paid": 40,
+    "pre_assignment": 25,
+    "after_purchase_window": 114,
+    "unassigned": 0
+  },
+  "reconciled_users": 24000,
+  "reconciliation": "PASS",
+  "status": "PASS",
+  "restored_primary_reconciliation": "PASS"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "source_quality": "PASS",
+  "original_pilot_csvs_preserved": true,
+  "csv_hashes_verified": true,
+  "max_change_from_original_headline_estimates": 5.10702591327572e-15,
+  "bootstrap_intervals_reconstructed": true,
+  "decision_recomputed": true,
+  "sqlite_integrity_and_saved_metrics": "PASS",
+  "primary_window_restored": true,
+  "executed_notebook_cells": 11,
+  "local_links_and_svg_structure": "PASS",
+  "pdf_pages": 2,
+  "pdf_text_and_page_bounds": "PASS",
+  "pdf_sha256": "f5756a591df60e1795e8d6f3cbd6ac705cc4f32e9a64ec7e785c6b36717bb5a3",
+  "pdf_visual_review": "PASS",
+  "html_browser_preview": "Unavailable: prior local-file browser policy block. No browser visual verification claimed.",
+  "report_refreshed": true,
+  "updated_sensitivity_output": "exploratory point estimates only; no intervals/tests",
+  "source_allocation_config": "generator and SRM use the same configured expected_treatment_share"
+}

@@ -1,0 +1,8 @@
+{
+  "data/assignments.csv": "a866c903e3d31179a59ab5f0169b774d55693667730a7e1b3ee75749b7339849",
+  "data/checkout_events.csv": "34ea8105eaca9bd875831b95ecd835ecd06c66e7c768f576b5e173534300e60f",
+  "data/orders.csv": "659fede6e0db19c96d3828593c9426c05c9327ecaeaa77cdba4f56f4c8fc4caa",
+  "data/refunds.csv": "e1dea851c7c28b4072550d98973cab91f938156e9c290b2c0fbc228ac8e54466",
+  "data/user_analysis.csv": "b734a67c87d2d8f94c04fa08fee08d30e50455907089bffea46074bca79ae7be",
+  "data/users.csv": "f343e055f9d9217e721c000da1dae1dc753713ccccd2677aaa1ab6398b03b792"
+}

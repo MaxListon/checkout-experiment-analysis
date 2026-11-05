@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="760" height="155" preserveAspectRatio="xMinYMin meet" viewBox="0 0 760 155" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="760" height="155"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-155)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="760" height="155" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 290,46 L 290,130 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="271.655" y="26" style="font-family: Helvetica; font-size: 10px;fill: rgb(37%,44%,42%); stroke:none;" transform="translate(0,52) scale(1,-1)">-0.50 pp</text>
+			<path d="M 382.737667,46 L 382.737667,130 Z" style="stroke: rgb(54%,61%,58%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="373.0076670156524" y="26" style="font-family: Helvetica; font-size: 10px;fill: rgb(37%,44%,42%); stroke:none;" transform="translate(0,52) scale(1,-1)">0 pp</text>
+			<path d="M 704,46 L 704,130 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="684.4" y="26" style="font-family: Helvetica; font-size: 10px;fill: rgb(37%,44%,42%); stroke:none;" transform="translate(0,52) scale(1,-1)">+1.73 pp</text>
+			<path d="M 382.737667,46 L 382.737667,130 Z" style="stroke: rgb(66%,39%,14%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 4, 3;"/>
+			<text x="362.7276670156524" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(66%,39%,14%); stroke:none;" transform="translate(0,286) scale(1,-1)">No effect</text>
+			<text x="18" y="112" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,224) scale(1,-1)">Purchase conversion</text>
+			<text x="18" y="92" style="font-family: Helvetica; font-size: 10px;fill: rgb(37%,44%,42%); stroke:none;" transform="translate(0,184) scale(1,-1)">+0.59 pp [-0.27 pp, +1.44 pp]</text>
+			<path d="M 333.146678,106 L 650.456278,106 Z" style="stroke: rgb(3%,49%,45%); stroke-linecap: butt; stroke-width: 3;"/>
+			<path d="M 333.146678,101 L 333.146678,111 Z" style="stroke: rgb(3%,49%,45%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<path d="M 650.456278,101 L 650.456278,111 Z" style="stroke: rgb(3%,49%,45%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<circle cx="491.8312432350814" cy="106" r="4.5" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,45%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

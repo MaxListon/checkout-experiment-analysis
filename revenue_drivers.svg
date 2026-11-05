@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="760" height="275" preserveAspectRatio="xMinYMin meet" viewBox="0 0 760 275" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="760" height="275"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-275)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="760" height="275" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 490,35 L 490,260 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="18" y="236" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,472) scale(1,-1)">More buyers</text>
+			<text x="225" y="236" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,472) scale(1,-1)">+$0.66</text>
+			<rect x="490" y="230" width="134.61538461538464" height="23" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,45%); fill-rule: evenodd;"/>
+			<text x="18" y="193" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,386) scale(1,-1)">Orders per buyer</text>
+			<text x="225" y="193" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,386) scale(1,-1)">-$0.19</text>
+			<rect x="452.1756868554453" y="187" width="37.82431314455471" height="23" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(71%,35%,27%); fill-rule: evenodd;"/>
+			<text x="18" y="150" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,300) scale(1,-1)">Average order value</text>
+			<text x="225" y="150" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,300) scale(1,-1)">-$0.53</text>
+			<rect x="381.58634521580217" y="144" width="108.41365478419783" height="23" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(71%,35%,27%); fill-rule: evenodd;"/>
+			<text x="18" y="107" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,214) scale(1,-1)">Additional refunds</text>
+			<text x="225" y="107" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,214) scale(1,-1)">-$0.22</text>
+			<rect x="444.5125572358724" y="101" width="45.48744276412759" height="23" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(71%,35%,27%); fill-rule: evenodd;"/>
+			<text x="18" y="64" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,128) scale(1,-1)">Total net difference</text>
+			<text x="225" y="64" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,128) scale(1,-1)">-$0.28</text>
+			<rect x="432.88997392250445" y="58" width="57.11002607749555" height="23" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,23%,21%); fill-rule: evenodd;"/>
+			<text x="363.375" y="14" style="font-family: Helvetica; font-size: 10px;fill: rgb(37%,44%,42%); stroke:none;" transform="translate(0,28) scale(1,-1)">USD per assigned user | exact descriptive decomposition</text>
+		</g>
+	</g>
+</svg>

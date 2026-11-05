@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="760" height="220" preserveAspectRatio="xMinYMin meet" viewBox="0 0 760 220" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="760" height="220"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-220)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="760" height="220" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="18" y="168" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,336) scale(1,-1)">Conversion +0.60 pp</text>
+			<rect x="270" y="158" width="27.836064963354147" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,45%); fill-rule: evenodd;"/>
+			<text x="307.83606496335415" y="168" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,336) scale(1,-1)">49,838</text>
+			<text x="18" y="116" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,232) scale(1,-1)">Refund safety: no increase</text>
+			<rect x="270" y="106" width="11.954796229295539" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,45%); fill-rule: evenodd;"/>
+			<text x="291.95479622929554" y="116" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,232) scale(1,-1)">21,404</text>
+			<text x="18" y="64" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,128) scale(1,-1)">Revenue safety: no loss</text>
+			<rect x="270" y="54" width="360.0" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,39%,14%); fill-rule: evenodd;"/>
+			<text x="640.0" y="64" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,128) scale(1,-1)">644,548</text>
+			<text x="18" y="18" style="font-family: Helvetica; font-size: 10px;fill: rgb(37%,44%,42%); stroke:none;" transform="translate(0,36) scale(1,-1)">Approximate users per arm | 80% power for each criterion separately</text>
+		</g>
+	</g>
+</svg>
