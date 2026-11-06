@@ -14,8 +14,5 @@
   "pdf_text_and_page_bounds": "PASS",
   "pdf_sha256": "f5756a591df60e1795e8d6f3cbd6ac705cc4f32e9a64ec7e785c6b36717bb5a3",
   "pdf_visual_review": "PASS",
-  "html_browser_preview": "Unavailable: prior local-file browser policy block. No browser visual verification claimed.",
-  "report_refreshed": true,
-  "updated_sensitivity_output": "exploratory point estimates only; no intervals/tests",
-  "source_allocation_config": "generator and SRM use the same configured expected_treatment_share"
+  "html_browser_preview": "Unavailable: prior local-file browser policy block. No browser visual verification claimed."
 }

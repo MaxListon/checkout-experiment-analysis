@@ -32,7 +32,7 @@ A simpler checkout converts more users in the point estimate, but the experiment
 
 ## Reproduce everything
 
-Python **3.11+**. Tested on Python 3.12.14. SQLite is included with Python. Dependencies are pinned in `requirements.txt`; no external data download is required.
+Python **3.11+**. Tested on Python 3.12.14 and 3.14.10. SQLite is included with Python. Dependencies are pinned in `requirements.txt`; no external data download is required.
 
 ```sh
 python3 -m venv .venv

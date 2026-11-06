@@ -74,6 +74,10 @@ def verify(root=ROOT):
         if target.startswith('#'):require(target[1:] in parser.ids,f'Broken section link {target}')
         elif not target.startswith(('https:','http:')):require((root/unquote(target)).exists(),f'Broken file link {target}')
     for path in root.rglob('*.md'):
+        # Ignore installed dependencies and Git internals. They may contain
+        # Markdown with links that are valid only within the dependency.
+        if any(part in {'.venv', '.git', '__pycache__'} for part in path.parts):
+            continue
         for target in re.findall(r'\]\(([^)]+)\)',path.read_text()):
             if target.startswith(('https:','http:','#')):continue
             require((path.parent/target).exists(),f'Broken Markdown link in {path.name}: {target}')
