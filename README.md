@@ -2,6 +2,8 @@
 
 **Product analytics portfolio · SQL + Python · Randomized experiment · Clearly labeled simulation**
 
+[![Tests](https://github.com/MaxListon/checkout-experiment-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/MaxListon/checkout-experiment-analysis/actions/workflows/tests.yml)
+
 A simpler checkout converts more users in the point estimate, but the experiment does not establish a reliable lift or revenue/refund safety. **Recommendation: retain the current checkout; continue testing only if confirmation is economically feasible.**
 
 [Read the two-page decision brief](experiment-readout.pdf) · [Explore the visual case study](readout.html) · [Open the executed notebook](analysis.ipynb)
