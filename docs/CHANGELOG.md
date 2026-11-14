@@ -11,7 +11,7 @@
 7. Built and executed the notebook with actual saved outputs, including independent reconstruction of the reported bootstrap intervals.
 8. Added exploratory pre-assignment balance and measurement-window diagnostics without selecting a favorable subgroup or outcome window.
 9. Rebuilt the visual case study with six charts and added a two-page PDF, rendered and visually reviewed.
-10. Added one-command rebuilding, offline verification, an updated interview guide and a packaged ZIP.
+10. Added one-command rebuilding and an offline verification script.
 
 ## What the review did not change
 
@@ -26,4 +26,4 @@ The original simulated users, assignments, events, orders, refunds and user-anal
 
 ## Review limits
 
-The PDF was visually inspected at full-page resolution. HTML source, links and shared charts were validated, but the environment blocked local-file browser preview. The HTML appearance has not been verified in a browser. The supplied tests and reconciliation validate this dataset and documented behaviors, not every possible production data source.
+The PDF was visually inspected at full-page resolution. HTML source, links and shared charts were validated programmatically, but the HTML page has not been manually opened and checked in a browser. The supplied tests and reconciliation validate this dataset and documented behaviors, not every possible production data source.

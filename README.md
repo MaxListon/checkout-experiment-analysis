@@ -70,9 +70,7 @@ The notebook uses normal Python cells. `build_notebook.py` actually executes the
 | [src/quality.py](src/quality.py) | Source contracts and independent reconciliation |
 | [tests/test_analysis.py](tests/test_analysis.py) | Edge cases and statistical behavior |
 | [docs/METHODOLOGY.md](docs/METHODOLOGY.md) | Estimands, formulas, sample planning and limitations |
-| [docs/INTERVIEW_GUIDE.md](docs/INTERVIEW_GUIDE.md) | Interview narrative, questions and honest resume wording |
 | [docs/CHANGELOG.md](docs/CHANGELOG.md) | Improvements and validation evidence |
-| [GITHUB_GUIDE.md](GITHUB_GUIDE.md) | GitHub setup, resume bullets and sharing checklist |
 
 `data/` contains five source CSVs, an analytical CSV and a ready-to-query SQLite database. `results/` includes unrounded metrics, bootstrap draws, sensitivity tables, quality reports and data hashes. `charts/` contains six standalone SVGs and the PDF preview.
 
@@ -84,4 +82,4 @@ All data are fictional. Seed 314159 and the original 24,000-user pilot are prese
 
 The design is a portfolio simulation, not work conducted for a real retailer. Safety margins are illustrative assumptions, not approved policy or historical preregistration. Revenue after observed refunds is not profit. Available traffic, implementation cost and long-term customer value are unknown, so the project does not claim that more testing has positive expected value.
 
-The PDF was rendered and visually reviewed. HTML source, links and shared charts were checked; local HTML browser preview remains unavailable under the environment's browser policy.
+The PDF was rendered and visually reviewed. HTML source, links and shared charts were checked programmatically; the rendered HTML page has not been manually opened in a browser, so no browser-rendering check is claimed.

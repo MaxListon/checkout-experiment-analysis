@@ -12,7 +12,7 @@
   "local_links_and_svg_structure": "PASS",
   "pdf_pages": 2,
   "pdf_text_and_page_bounds": "PASS",
-  "pdf_sha256": "f5756a591df60e1795e8d6f3cbd6ac705cc4f32e9a64ec7e785c6b36717bb5a3",
+  "pdf_sha256": "8998b83bc1f95e51498786334c49659effae0cc16981b5c8176ad7dedf9486e7",
   "pdf_visual_review": "PASS",
-  "html_browser_preview": "Unavailable: prior local-file browser policy block. No browser visual verification claimed."
+  "html_browser_preview": "Not performed: the HTML page has not been manually opened in a browser. No browser visual verification claimed."
 }
