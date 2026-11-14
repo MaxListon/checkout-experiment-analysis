@@ -159,25 +159,25 @@
         "loss_margin_usd": 0.25,
         "assumed_true_difference_usd": 0.0,
         "n_per_arm": 644548,
-        "power_at_reference_n": 0.11906682602908351
+        "power_at_reference_n": 0.11906682602908347
       },
       {
         "loss_margin_usd": 0.25,
         "assumed_true_difference_usd": -0.28154168237267996,
         "n_per_arm": null,
-        "power_at_reference_n": 0.019775309496701872
+        "power_at_reference_n": 0.019775309496701865
       },
       {
         "loss_margin_usd": 0.5,
         "assumed_true_difference_usd": 0.0,
         "n_per_arm": 161137,
-        "power_at_reference_n": 0.34481208500101956
+        "power_at_reference_n": 0.3448120850010195
       },
       {
         "loss_margin_usd": 0.5,
         "assumed_true_difference_usd": -0.28154168237267996,
         "n_per_arm": 844108,
-        "power_at_reference_n": 0.10060490009010738
+        "power_at_reference_n": 0.10060490009010731
       },
       {
         "loss_margin_usd": 1.0,
@@ -189,7 +189,7 @@
         "loss_margin_usd": 1.0,
         "assumed_true_difference_usd": -0.28154168237267996,
         "n_per_arm": 78043,
-        "power_at_reference_n": 0.6112147302920352
+        "power_at_reference_n": 0.6112147302920351
       }
     ],
     "refund_safety_scenarios": [
@@ -206,7 +206,7 @@
       {
         "assumed_true_difference": 0.0021332006741843074,
         "n_per_arm": 278063,
-        "power_at_reference_n": 0.2200685262878469
+        "power_at_reference_n": 0.22006852628784684
       }
     ],
     "note": "First-order marginal-power approximations, not a joint-power or launch guarantee. Pilot effects are uncertain; margins must be agreed before confirmation."
