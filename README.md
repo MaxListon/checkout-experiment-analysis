@@ -6,7 +6,7 @@
 
 A simpler checkout converts more users in the point estimate, but the experiment does not establish a reliable lift or revenue/refund safety. **Recommendation: retain the current checkout; continue testing only if confirmation is economically feasible.**
 
-[Read the two-page decision brief](experiment-readout.pdf) · [Explore the visual case study](readout.html) · [Open the executed notebook](analysis.ipynb)
+[Live visual case study](https://maxliston.github.io/checkout-experiment-analysis/) · [Read the two-page decision brief](experiment-readout.pdf) · [Open the executed notebook](analysis.ipynb)
 
 ![Preview of the executive decision brief](charts/readout-preview.png)
 
