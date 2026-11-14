@@ -157,7 +157,7 @@ Retain the existing checkout. Consider a fresh independently planned test only a
 
 This dataset is simulated, with stable identities, complete logging and no spillovers. Real evidence needs instrumentation audits. After-refund revenue excludes costs and long-term effects. Multiple subgroup searches can create false positives; no segment launch claims are made. Individual 95% intervals are not simultaneous 95% intervals.
 
-See `docs/METHODOLOGY.md` for formulas, assumptions and references, and `docs/INTERVIEW_GUIDE.md` for a concise explanation of the project.
+See `docs/METHODOLOGY.md` for formulas, assumptions and references.
 ''')
     ]
     namespace={'__name__':'__notebook__'};execution=0

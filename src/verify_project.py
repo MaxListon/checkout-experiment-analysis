@@ -107,7 +107,7 @@ def verify(root=ROOT):
         'local_links_and_svg_structure':'PASS','pdf_pages':len(doc),
         'pdf_text_and_page_bounds':'PASS','pdf_sha256':pdf_hash,
         'pdf_visual_review':'PASS' if reviewed else 'Pending review of this exact PDF',
-        'html_browser_preview':'Unavailable: prior local-file browser policy block. No browser visual verification claimed.'}
+        'html_browser_preview':'Not performed: the HTML page has not been manually opened in a browser. No browser visual verification claimed.'}
     save_json(root/'results/verification.json',report)
     print(f"Artifact checks PASS; {len(cells)} executed cells; 2 PDF pages; original data preserved: {original_preserved}.")
     return report

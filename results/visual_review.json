@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "pdf_sha256": "f5756a591df60e1795e8d6f3cbd6ac705cc4f32e9a64ec7e785c6b36717bb5a3",
+  "pdf_sha256": "8998b83bc1f95e51498786334c49659effae0cc16981b5c8176ad7dedf9486e7",
   "pages_reviewed": [
     1,
     2
@@ -8,5 +8,5 @@
   "review_method": "Re-rendered the current two-page PDF with PDFium and inspected both page images after updating the revenue interpretation.",
   "standalone_charts_reviewed": 6,
   "chart_review_method": "Rendered all six SVGs to a PNG contact sheet and visually inspected labels, scales and intervals.",
-  "html_browser_preview": "Not performed; local-file browser access was blocked by policy."
+  "html_browser_preview": "Not performed; the HTML page has not been manually opened in a browser."
 }
