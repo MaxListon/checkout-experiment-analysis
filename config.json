@@ -1,0 +1,32 @@
+{
+  "project_version": "2.0",
+  "simulation": {
+    "seed": 314159,
+    "users": 24000,
+    "enrollment_start": "2026-01-01T00:00:00",
+    "enrollment_days": 28
+  },
+  "measurement": {
+    "purchase_days": 7,
+    "refund_days": 30,
+    "extract_at": "2026-03-07T00:00:00",
+    "currency": "USD",
+    "expected_treatment_share": 0.5
+  },
+  "inference": {
+    "confidence_level": 0.95,
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 271828,
+    "srm_alert_threshold": 0.001
+  },
+  "decision": {
+    "net_revenue_loss_margin_usd": 0.25,
+    "refund_rate_increase_margin": 0.003,
+    "threshold_status": "Illustrative business assumptions; not historically preregistered or stakeholder approved"
+  },
+  "planning": {
+    "conversion_target_absolute": 0.006,
+    "marginal_power": 0.8,
+    "reference_users_per_arm": 50000
+  }
+}

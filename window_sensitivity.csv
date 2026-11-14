@@ -1,0 +1,7 @@
+purchase_days,variant,assigned_users,buyers,conversion,gross_rpu,net_rpu,interpretation
+1,control,11911,248,0.02082108974897154,2.3606556964150784,2.167352867097641,Exploratory point estimate only; no confidence interval or significance test
+1,new,12089,230,0.01902556042683431,1.88385805277525,1.73021672594921,Exploratory point estimate only; no confidence interval or significance test
+3,control,11911,697,0.058517336915456304,6.388387205104525,5.807862480060448,Exploratory point estimate only; no confidence interval or significance test
+3,new,12089,739,0.06112995284969807,6.468416742493175,5.7564959880883455,Exploratory point estimate only; no confidence interval or significance test
+7,control,11911,1532,0.12862060280413062,14.865366467970782,13.580378641591805,Exploratory point estimate only; no confidence interval or significance test
+7,new,12089,1626,0.1345024402349243,14.808069319215814,13.298836959219125,Exploratory point estimate only; no confidence interval or significance test

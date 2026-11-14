@@ -1,0 +1,232 @@
+{
+  "simulation": true,
+  "project_version": "2.0",
+  "seed": 314159,
+  "bootstrap_seed": 271828,
+  "bootstrap_replicates": 10000,
+  "config": {
+    "project_version": "2.0",
+    "simulation": {
+      "seed": 314159,
+      "users": 24000,
+      "enrollment_start": "2026-01-01T00:00:00",
+      "enrollment_days": 28
+    },
+    "measurement": {
+      "purchase_days": 7,
+      "refund_days": 30,
+      "extract_at": "2026-03-07T00:00:00",
+      "currency": "USD",
+      "expected_treatment_share": 0.5
+    },
+    "inference": {
+      "confidence_level": 0.95,
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": 271828,
+      "srm_alert_threshold": 0.001
+    },
+    "decision": {
+      "net_revenue_loss_margin_usd": 0.25,
+      "refund_rate_increase_margin": 0.003,
+      "threshold_status": "Illustrative business assumptions; not historically preregistered or stakeholder approved"
+    },
+    "planning": {
+      "conversion_target_absolute": 0.006,
+      "marginal_power": 0.8,
+      "reference_users_per_arm": 50000
+    }
+  },
+  "groups": {
+    "control": {
+      "n": 11911,
+      "buyers": 1532,
+      "orders": 1663,
+      "checkout_starters": 5716,
+      "conversion": 0.12862060280413062,
+      "conversion_ci95": [
+        0.12272792325296347,
+        0.1347527548931595
+      ],
+      "gross_rpu": 14.865366467970782,
+      "net_rpu": 13.580378641591805,
+      "refund_rpu": 1.2849878263789773,
+      "refunded_users": 148,
+      "refund_user_rate": 0.01242548904374108,
+      "refund_buyer_rate": 0.09660574412532637,
+      "orders_per_buyer": 1.085509138381201,
+      "average_order_value": 106.47106434155141,
+      "net_variance_usd": 2708.551124046375,
+      "zero_revenue_share": 0.8713793971958693,
+      "max_user_revenue": 1443.48,
+      "top_one_percent_revenue_share": 0.2628958951974733
+    },
+    "new": {
+      "n": 12089,
+      "buyers": 1626,
+      "orders": 1743,
+      "checkout_starters": 5799,
+      "conversion": 0.1345024402349243,
+      "conversion_ci95": [
+        0.1285363405081029,
+        0.14070075070058372
+      ],
+      "gross_rpu": 14.808069319215814,
+      "net_rpu": 13.298836959219125,
+      "refund_rpu": 1.5092323599966913,
+      "refunded_users": 176,
+      "refund_user_rate": 0.014558689717925387,
+      "refund_buyer_rate": 0.10824108241082411,
+      "orders_per_buyer": 1.0719557195571956,
+      "average_order_value": 102.70496270797476,
+      "net_variance_usd": 2423.931119444709,
+      "zero_revenue_share": 0.8654975597650757,
+      "max_user_revenue": 1177.83,
+      "top_one_percent_revenue_share": 0.25101032177516097
+    }
+  },
+  "conversion": {
+    "control": 0.12862060280413062,
+    "new": 0.1345024402349243,
+    "difference": 0.005881837430793679,
+    "ci95": [
+      -0.0026737242219185293,
+      0.014434189441874988
+    ],
+    "relative_change": 0.04573013422857941,
+    "relative_ci95": [
+      -0.020115899541812587,
+      0.11600087512633905
+    ]
+  },
+  "refunds": {
+    "control": 0.01242548904374108,
+    "new": 0.014558689717925387,
+    "difference": 0.0021332006741843074,
+    "ci95": [
+      -0.0007956078031935657,
+      0.005073194183037699
+    ],
+    "relative_change": 0.1716794137176303,
+    "relative_ci95": [
+      -0.05699524895657926,
+      0.45580671466466205
+    ]
+  },
+  "revenue": {
+    "gross": {
+      "difference": -0.05729714875496761,
+      "ci95": [
+        -1.4468369302366302,
+        1.2681739381372479
+      ],
+      "bootstrap_se": 0.6901758840532363,
+      "analytic_se": 0.6883491474781521,
+      "normal_ci95_sensitivity": [
+        -1.4064366866009959,
+        1.2918423890910606
+      ]
+    },
+    "net": {
+      "difference": -0.28154168237267996,
+      "ci95": [
+        -1.5933796914759466,
+        0.9769432976518099
+      ],
+      "bootstrap_se": 0.6526454133806459,
+      "analytic_se": 0.6541454749652617,
+      "normal_ci95_sensitivity": [
+        -1.5636432539544403,
+        1.0005598892090803
+      ]
+    }
+  },
+  "allocation": {
+    "chi_square": 1.3201666666666667,
+    "p_value": 0.2505621414242873,
+    "expected_control": 12000.0,
+    "expected_new": 12000.0,
+    "observed_new_share": 0.5037083333333333,
+    "alert_threshold": 0.001,
+    "flagged": false
+  },
+  "planning": {
+    "marginal_power": 0.8,
+    "reference_users_per_arm": 50000,
+    "target_absolute_effect": 0.006,
+    "approx_n_per_arm": 49838,
+    "net_safety_scenarios": [
+      {
+        "loss_margin_usd": 0.25,
+        "assumed_true_difference_usd": 0.0,
+        "n_per_arm": 644548,
+        "power_at_reference_n": 0.11906682602908353
+      },
+      {
+        "loss_margin_usd": 0.25,
+        "assumed_true_difference_usd": -0.28154168237267996,
+        "n_per_arm": null,
+        "power_at_reference_n": 0.019775309496701865
+      },
+      {
+        "loss_margin_usd": 0.5,
+        "assumed_true_difference_usd": 0.0,
+        "n_per_arm": 161137,
+        "power_at_reference_n": 0.34481208500101956
+      },
+      {
+        "loss_margin_usd": 0.5,
+        "assumed_true_difference_usd": -0.28154168237267996,
+        "n_per_arm": 844108,
+        "power_at_reference_n": 0.10060490009010736
+      },
+      {
+        "loss_margin_usd": 1.0,
+        "assumed_true_difference_usd": 0.0,
+        "n_per_arm": 40285,
+        "power_at_reference_n": 0.8772265608505176
+      },
+      {
+        "loss_margin_usd": 1.0,
+        "assumed_true_difference_usd": -0.28154168237267996,
+        "n_per_arm": 78043,
+        "power_at_reference_n": 0.6112147302920352
+      }
+    ],
+    "refund_safety_scenarios": [
+      {
+        "assumed_true_difference": 0.0,
+        "n_per_arm": 21404,
+        "power_at_reference_n": 0.9898852753586089
+      },
+      {
+        "assumed_true_difference": 0.001,
+        "n_per_arm": 50069,
+        "power_at_reference_n": 0.7994614831856652
+      },
+      {
+        "assumed_true_difference": 0.0021332006741843074,
+        "n_per_arm": 278063,
+        "power_at_reference_n": 0.2200685262878469
+      }
+    ],
+    "note": "First-order marginal-power approximations, not a joint-power or launch guarantee. Pilot effects are uncertain; margins must be agreed before confirmation."
+  },
+  "decision": {
+    "status": "CONTINUE TESTING \u2014 CONDITIONAL ON FEASIBILITY",
+    "gates": {
+      "conversion_superiority": false,
+      "net_revenue_safety": false,
+      "refund_safety": false
+    }
+  },
+  "revenue_bridge": {
+    "method": "Average of all six factor replacement orders; descriptive, not causal",
+    "gross_contributions": {
+      "conversion": 0.6636285160583275,
+      "orders_per_buyer": -0.1864667465369155,
+      "average_order_value": -0.5344589182763777
+    },
+    "additional_refund_drag": -0.2242445336177139,
+    "net_difference": -0.28154168237267996
+  }
+}

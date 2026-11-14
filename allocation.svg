@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="760" height="180" preserveAspectRatio="xMinYMin meet" viewBox="0 0 760 180" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="760" height="180"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-180)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="760" height="180" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="18" y="126" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,252) scale(1,-1)">Control</text>
+			<rect x="170" y="116" width="394.1103482504757" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(65%,73%,69%); fill-rule: evenodd;"/>
+			<text x="576.1103482504757" y="126" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,252) scale(1,-1)">11,911 (49.63%)</text>
+			<text x="18" y="72" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,144) scale(1,-1)">New checkout</text>
+			<rect x="170" y="62" width="400.0" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,45%); fill-rule: evenodd;"/>
+			<text x="582.0" y="72" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,23%,21%); stroke:none;" transform="translate(0,144) scale(1,-1)">12,089 (50.37%)</text>
+			<text x="18" y="17" style="font-family: Helvetica; font-size: 10px;fill: rgb(37%,44%,42%); stroke:none;" transform="translate(0,34) scale(1,-1)">Intended treatment share 50% | SRM p = 0.251 | Flag at p &lt; 0.001</text>
+		</g>
+	</g>
+</svg>
