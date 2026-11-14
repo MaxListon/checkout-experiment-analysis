@@ -159,13 +159,13 @@
         "loss_margin_usd": 0.25,
         "assumed_true_difference_usd": 0.0,
         "n_per_arm": 644548,
-        "power_at_reference_n": 0.11906682602908353
+        "power_at_reference_n": 0.11906682602908351
       },
       {
         "loss_margin_usd": 0.25,
         "assumed_true_difference_usd": -0.28154168237267996,
         "n_per_arm": null,
-        "power_at_reference_n": 0.019775309496701865
+        "power_at_reference_n": 0.019775309496701872
       },
       {
         "loss_margin_usd": 0.5,
@@ -177,7 +177,7 @@
         "loss_margin_usd": 0.5,
         "assumed_true_difference_usd": -0.28154168237267996,
         "n_per_arm": 844108,
-        "power_at_reference_n": 0.10060490009010736
+        "power_at_reference_n": 0.10060490009010738
       },
       {
         "loss_margin_usd": 1.0,
